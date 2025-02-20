@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* Centers the image */
+    /*background: url("https://i.pinimg.com/474x/75/d6/a9/75d6a94ea19302bb36c29a5113410c49.jpg")center;
+    background-position: middle;*/
+    position: relative;
+
+    /* Crops 10% from top and bottom */
+    align-items: center;
+    height: 30vh;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: #fdf0f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.headerIMG {
+
+    width: 100%;
+    height: auto;
+    object-position: center;
+    object-fit: cover;
+    transform: translateY(-190px);
+    /* 
+    /* Ensures it fills the area */
+}
+
+.pfp {
+    border-radius: 50%;
+    top: 20vh;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+}
+
+.date {
+    top: -100px;
+    left: 90vh;
+    display: block;
+    position: relative;
+    /* Centers the text */
+    align-items: center;
+    font-family: 'Ziglets';
+    top: 100px;
+    font-weight: 700;
+    /* Bold style */
+    font-size: 20px;
+    /* Adjust size as needed */
+    color: #333;
+    /* Dark gray text */
+    padding: 10px 0;
+    opacity: 1;
+}
